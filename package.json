@@ -1,0 +1,24 @@
+{
+  "name": "dynamo2json",
+  "version": "1.0.0",
+  "description": "dynamo2json",
+  "main": "./dist/dynamo2json.js",
+  "bin": {
+    "dynamo2json": "./dist/dynamo2json.js"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "Craig Sullivan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1148.0",
+    "commander": "^9.3.0",
+    "read-each-line-sync": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
